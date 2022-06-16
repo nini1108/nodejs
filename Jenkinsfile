@@ -3,9 +3,9 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="229848107216"
         AWS_DEFAULT_REGION="ap-southeast-2" 
-        CLUSTER_NAME="default"
-        SERVICE_NAME="service-0616"
-        TASK_DEFINITION_NAME="first-run-task-definition"
+        CLUSTER_NAME="cluster0616"
+        SERVICE_NAME="container0616-service"
+        TASK_DEFINITION_NAME="task0616"
         DESIRED_COUNT="2"
         IMAGE_REPO_NAME="229848107216.dkr.ecr.ap-southeast-2.amazonaws.com/demo"
         IMAGE_TAG="${env.BUILD_ID}"
